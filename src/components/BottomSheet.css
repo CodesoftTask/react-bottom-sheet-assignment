@@ -1,0 +1,81 @@
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+  z-index: 10;
+  touch-action: none;
+}
+
+.handle {
+  width: 50px;
+  height: 5px;
+  background: #ccc;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.buttons {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+  display: flex;
+  gap: 10px;
+}
+.buttons button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #3730a3;
+}
+body {
+  background-color: #98738d;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+.content {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.handle {
+  width: 40px;
+  height: 5px;
+  background-color: #aaa;
+  border-radius: 3px;
+  margin: 10px auto;
+}
