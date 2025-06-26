@@ -56,15 +56,16 @@ There you can interact with the Bottom Sheet.
 ## 🖼️ Project Preview
 
 📌 Half Open Bottom Sheet  
-![Half Open](./screenshots/open_half.png)
+![Half Open](./screenshots/open_half.PNG)
 
 🔓 Fully Open Bottom Sheet  
-![Full Open](./screenshots/open_full.png)
+![Full Open](./screenshots/open_full.PNG)
 
 📱 Close Responsive View  
-![Close ](./screenshots/close.png)
+![Close ](./screenshots/close.PNG)
 
 ## ✅ Created By
+
 
 **Manu M N**  
 [GitHub Profile](https://github.com/CodesoftTask)
