@@ -64,6 +64,11 @@ There you can interact with the Bottom Sheet.
 📱 Close Responsive View  
 ![Close ](./screenshots/close.PNG)
 
+## 🔗 Live Demo
+
+👉 [Click here to view the deployed project](https://codesofttask.github.io/react-bottom-sheet-assignment)
+
+
 ## ✅ Created By
 
 
