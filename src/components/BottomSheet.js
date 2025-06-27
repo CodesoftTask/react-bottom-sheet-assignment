@@ -21,7 +21,7 @@ const BottomSheet = () => {
     let frame;
     const animate = () => {
       setCurrentY((prevY) => {
-        const delta = (targetY - prevY) * 0.1;
+        const delta = (targetY - prevY) * 0.35;
         const nextY = prevY + delta;
         if (Math.abs(delta) < 1) {
           cancelAnimationFrame(frame);
@@ -59,16 +59,16 @@ const BottomSheet = () => {
   return (
     <>
       <div className="buttons">
-        <button onClick={() => moveTo(snapPoints.full)}>Open Full</button>
-        <button onClick={() => moveTo(snapPoints.half)}>Open Half</button>
-        <button onClick={() => moveTo(snapPoints.closed)}>Close</button>
+        <button onClick={() => moveTo(snapPoints.full)}>🔓 Open Full</button>
+        <button onClick={() => moveTo(snapPoints.half)}>🌓 Open Half</button>
+        <button onClick={() => moveTo(snapPoints.closed)}>🔒 Close</button>
       </div>
 
       <div
         className="bottom-sheet"
-        style={{ 
+        style={{
           transform: `translateY(${currentY}px)`,
-          transition: 'transform 0.3s ease-in-out'
+          transition: 'transform 0.15s ease-out'
         }}
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
@@ -78,9 +78,20 @@ const BottomSheet = () => {
         <div className="content">
           <div style={{ display: 'flex', alignItems: 'center' }}>
             <span style={{ fontSize: '24px', marginRight: '10px' }}>📌</span>
-            <h2>Bottom Sheet</h2>
+            <h2>Welcome to Smart Bottom Sheet</h2>
           </div>
-          <p>This is a stylish custom bottom sheet with snap points and animations.</p>
+
+          <p style={{ fontSize: '16px', color: '#555' }}>
+            This bottom sheet smoothly snaps to multiple positions using spring-like animation. Try dragging or pressing the buttons to explore!
+          </p>
+
+          <div style={{ marginTop: '20px', background: '#f1f5f9', padding: '10px', borderRadius: '8px' }}>
+            <strong>💡 Tip:</strong> Works great on both desktop and mobile. Give it a try!
+          </div>
+
+          <div style={{ marginTop: '30px', textAlign: 'center', fontSize: '12px', color: '#999' }}>
+            👆 Try dragging this sheet — it listens to you!
+          </div>
         </div>
       </div>
     </>
