@@ -59,7 +59,7 @@ There you can interact with the Bottom Sheet.
 ![Half Open](./screenshots/open_half1.png)
 
 🔓 Fully Open Bottom Sheet  
-![Full Open](./screenshots/open_full1.png)
+![Full Open](./screenshots/open_full1.PNG)
 
 📱 Close Responsive View  
 ![Close ](./screenshots/close1.png)
