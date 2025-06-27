@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-bottom-sheet-assignment/static/css/main.b0483a48.css",
-    "main.js": "/react-bottom-sheet-assignment/static/js/main.fec97284.js",
+    "main.css": "/react-bottom-sheet-assignment/static/css/main.7d70a5ed.css",
+    "main.js": "/react-bottom-sheet-assignment/static/js/main.ce975396.js",
     "static/js/453.df837487.chunk.js": "/react-bottom-sheet-assignment/static/js/453.df837487.chunk.js",
     "index.html": "/react-bottom-sheet-assignment/index.html",
-    "main.b0483a48.css.map": "/react-bottom-sheet-assignment/static/css/main.b0483a48.css.map",
-    "main.fec97284.js.map": "/react-bottom-sheet-assignment/static/js/main.fec97284.js.map",
+    "main.7d70a5ed.css.map": "/react-bottom-sheet-assignment/static/css/main.7d70a5ed.css.map",
+    "main.ce975396.js.map": "/react-bottom-sheet-assignment/static/js/main.ce975396.js.map",
     "453.df837487.chunk.js.map": "/react-bottom-sheet-assignment/static/js/453.df837487.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0483a48.css",
-    "static/js/main.fec97284.js"
+    "static/css/main.7d70a5ed.css",
+    "static/js/main.ce975396.js"
   ]
 }
