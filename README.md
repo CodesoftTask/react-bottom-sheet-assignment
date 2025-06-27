@@ -56,17 +56,17 @@ There you can interact with the Bottom Sheet.
 ## 🖼️ Project Preview
 
 📌 Half Open Bottom Sheet  
-![Half Open](./screenshots/open_half.PNG)
+![Half Open](./screenshots/open_half1.png)
 
 🔓 Fully Open Bottom Sheet  
-![Full Open](./screenshots/open_full.PNG)
+![Full Open](./screenshots/open_full1.png)
 
 📱 Close Responsive View  
-![Close ](./screenshots/close.PNG)
+![Close ](./screenshots/close1.png)
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the deployed project](https://codesofttask.github.io/react-bottom-sheet-assignment)
+[Click here to view the project live](https://codesofttask.github.io/react-bottom-sheet-assignment/)
 
 
 ## ✅ Created By
